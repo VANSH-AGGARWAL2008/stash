@@ -97,7 +97,7 @@ image_picker · shared_preferences · path_provider
 Package docs, Flutter docs and an AI assistant helped while I was stuck. I can
 walk through how every part of the code works.
 
-Made by [VANSH AGGARWAL]
+Made by VANSH AGGARWAL
 
 
 
