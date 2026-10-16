@@ -43,12 +43,15 @@ Stash tells you it can't save it. It doesn't crash.
 - The Your Data screen explains in plain words where your data lives and what
   happens when you delete it.
 
-## How it fits together
+
+## Architecture
+
+Stage 1 is **Mobile App → Local Storage**. Stage 3 adds sharing into the app, and Mission E adds export and delete.
+
+**Where data is stored:** items go in a SQLite database on the phone, and images are copied into the app's private folder. There's no login and no server, and nothing leaves the phone unless you export it.
 
 
-**Where data is stored:** items go in a SQLite database on the phone, and
-images are copied into the app's private folder. There's no login and no
-server, and nothing is sent anywhere unless you choose to export it.
+
 
 ## Decisions I made, and why
 
