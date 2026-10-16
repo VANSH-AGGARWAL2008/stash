@@ -1,4 +1,3 @@
-`markdown
 # Stash: Save Notes
 
 I kept losing things I wanted to come back to. A link would sit in a WhatsApp
