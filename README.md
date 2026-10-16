@@ -51,6 +51,15 @@ Stage 1 is **Mobile App → Local Storage**. Stage 3 adds sharing into the app, 
 **Where data is stored:** items go in a SQLite database on the phone, and images are copied into the app's private folder. There's no login and no server, and nothing leaves the phone unless you export it.
 
 
+## Authentication and privacy
+
+Stash has no login, because there's no server and no shared data.
+- **Authentication:** none needed. The app works for one person, on their own phone.
+- **Where data is stored:** a SQLite database and the app's private folder on the device.
+- **How one user's data is protected from another:** Android's app sandbox
+  keeps every app's private storage separate, so other apps and other phone users
+  can't read Stash's data. Nothing is uploaded anywhere.
+
 
 
 ## Decisions I made, and why
